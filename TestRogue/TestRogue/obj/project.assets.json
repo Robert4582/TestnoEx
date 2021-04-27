@@ -5119,7 +5119,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -9307,24 +9307,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\kaspe_000\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+      "projectUniqueName": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
       "projectName": "TestRogue",
-      "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
+      "projectPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+      "packagesPath": "C:\\Users\\kaspe_000\\.nuget\\packages\\",
+      "outputPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kaspe_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9332,7 +9335,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.com/api/v4/projects/17035152/packages/nuget/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
