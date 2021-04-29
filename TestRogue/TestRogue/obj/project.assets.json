@@ -251,6 +251,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -670,6 +679,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -1269,6 +1287,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -1871,6 +1898,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -2471,6 +2507,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -3068,6 +3113,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3670,6 +3724,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -4267,6 +4330,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "RoyT.AStar/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Roy-T.AStar.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -5119,7 +5191,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -5245,6 +5317,19 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "RoyT.AStar/3.0.2": {
+      "sha512": "6i8y0RRFaXbBNqQRlUaLcG4yNwi8BBcyN65lXNldKoELViHxDMWmgocNpVtovKPyR9iOFUiHbCJfA5hCjYUkNA==",
+      "type": "package",
+      "path": "royt.astar/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/Roy-T.AStar.dll",
+        "royt.astar.3.0.2.nupkg.sha512",
+        "royt.astar.nuspec"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -9303,31 +9388,29 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "MonoGame.Content.Builder.Task >= 3.8.0.1641",
       "MonoGame.Framework.WindowsDX >= 3.8.0.1641",
-      "MonoGame.Framework.WindowsUniversal >= 3.8.0.1641"
+      "MonoGame.Framework.WindowsUniversal >= 3.8.0.1641",
+      "RoyT.AStar >= 3.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kaspe_000\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
       "projectName": "TestRogue",
-      "projectPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
-      "packagesPath": "C:\\Users\\kaspe_000\\.nuget\\packages\\",
-      "outputPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
+      "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\kaspe_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9335,8 +9418,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://gitlab.com/api/v4/projects/17035152/packages/nuget/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.16299": {
@@ -9362,6 +9444,10 @@
           "MonoGame.Framework.WindowsUniversal": {
             "target": "Package",
             "version": "[3.8.0.1641, )"
+          },
+          "RoyT.AStar": {
+            "target": "Package",
+            "version": "[3.0.2, )"
           }
         },
         "imports": [
