@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-HETNPIG</Machine>
-    <WindowsUser>rober</WindowsUser>
+    <Machine>DESKTOP-OD00GI2</Machine>
+    <WindowsUser>phili</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>00000000-0000-0000-0000-000000000000</PackageIdentityName>
     <PackageIdentityPublisher>CN=TestRogue</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>7EC1D9B145D8A81F170C234AA62D0730B57C9EA7FC78DF128917082ADEF7A83B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>TestRogue_1.0.0.0_x64__2rh68a1p20w58</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>TestRogue_2rh68a1p20w58!App</RegisteredUserModeAppID>
@@ -27,160 +27,160 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-29T12:50:34.117</Modified>
+      <Modified>2021-05-03T08:16:32.660</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\TestRogue.exe">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\TestRogue.exe">
       <PackagePath>entrypoint\TestRogue.exe</PackagePath>
-      <Modified>2021-04-29T12:50:31.840</Modified>
+      <Modified>2021-05-03T08:16:30.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
       <Modified>2020-08-10T14:17:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\royt.astar\3.0.2\lib\netstandard2.0\Roy-T.AStar.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\royt.astar\3.0.2\lib\netstandard2.0\Roy-T.AStar.dll">
       <PackagePath>Roy-T.AStar.dll</PackagePath>
       <Modified>2020-08-05T04:43:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T12:01:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx\4.0.1\lib\uap10.0\SharpDX.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx\4.0.1\lib\uap10.0\SharpDX.dll">
       <PackagePath>SharpDX.dll</PackagePath>
       <Modified>2017-05-30T08:02:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx.direct2d1\4.0.1\lib\uap10.0\SharpDX.Direct2D1.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx.direct2d1\4.0.1\lib\uap10.0\SharpDX.Direct2D1.dll">
       <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
       <Modified>2017-05-30T08:03:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx.direct3d11\4.0.1\lib\uap10.0\SharpDX.Direct3D11.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx.direct3d11\4.0.1\lib\uap10.0\SharpDX.Direct3D11.dll">
       <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
       <Modified>2017-05-30T08:03:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx.dxgi\4.0.1\lib\uap10.0\SharpDX.DXGI.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx.dxgi\4.0.1\lib\uap10.0\SharpDX.DXGI.dll">
       <PackagePath>SharpDX.DXGI.dll</PackagePath>
       <Modified>2017-05-30T08:03:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx.mediafoundation\4.0.1\lib\uap10.0\SharpDX.MediaFoundation.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx.mediafoundation\4.0.1\lib\uap10.0\SharpDX.MediaFoundation.dll">
       <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
       <Modified>2017-05-30T08:04:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\sharpdx.xaudio2\4.0.1\lib\uap10.0\SharpDX.XAudio2.dll">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\sharpdx.xaudio2\4.0.1\lib\uap10.0\SharpDX.XAudio2.dll">
       <PackagePath>SharpDX.XAudio2.dll</PackagePath>
       <Modified>2017-05-30T08:03:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets">
+    <AppxPackagedFile Include="C:\Users\phili\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets">
       <PackagePath>MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets</PackagePath>
       <Modified>2020-08-10T14:17:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-04-27T08:43:02.911</Modified>
+      <Modified>2021-04-28T12:06:05.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-04-27T08:43:02.693</Modified>
+      <Modified>2021-04-28T12:06:05.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-27T08:43:02.696</Modified>
+      <Modified>2021-04-28T12:06:05.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2021-04-27T08:43:02.746</Modified>
+      <Modified>2021-04-28T12:06:05.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2021-04-27T08:43:02.748</Modified>
+      <Modified>2021-04-28T12:06:05.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2021-04-27T08:43:02.750</Modified>
+      <Modified>2021-04-28T12:06:05.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-27T08:43:02.757</Modified>
+      <Modified>2021-04-28T12:06:05.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2021-04-27T08:43:02.806</Modified>
+      <Modified>2021-04-28T12:06:05.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-29T12:39:03.285</Modified>
+      <Modified>2021-05-03T08:16:31.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\TestRogue.exe">
+    <AppxPackagedFile Include="E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\TestRogue.exe">
       <PackagePath>TestRogue.exe</PackagePath>
-      <Modified>2021-04-29T12:50:34.104</Modified>
+      <Modified>2021-05-03T08:16:32.641</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\rober\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\phili\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.27909.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\rober\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\phili\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

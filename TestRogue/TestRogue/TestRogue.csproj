@@ -91,6 +91,9 @@
   <ItemGroup>
     <Compile Include="Component.cs" />
     <Compile Include="Composite.cs" />
+    <Compile Include="InputHandler.cs" />
+    <Compile Include="MovementHandler.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

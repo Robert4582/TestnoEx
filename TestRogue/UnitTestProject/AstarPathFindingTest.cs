@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using TestRogue;
+//using TestRogue;
 
 using Roy_T.AStar.Grids;
 using Roy_T.AStar.Primitives;
