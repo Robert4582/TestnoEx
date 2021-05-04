@@ -141,3 +141,6 @@ E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\MultipleQualifiersPerDimensionFo
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\ProjectArchitectures.txt
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
+X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
+X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Roy-T.AStar.dll
+X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache

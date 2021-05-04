@@ -22,7 +22,7 @@ namespace TestRogue
 
         public override void Start(ContentManager contentManager)
         {
-            handler = ((GameObject)owner).GetComponent<InputHandler>();
+            handler = ((GameObject)Owner).GetComponent<InputHandler>();
         }
 
         public override void Update()
@@ -30,16 +30,16 @@ namespace TestRogue
             switch (handler.CurrentAction)
             {
                 case Actions.Up:
-                    ((GameObject)owner).position.OffsetPosition(0, 1);
+                    ((GameObject)Owner).position.OffsetPosition(0, 1);
                     break;
                 case Actions.Down:
-                    ((GameObject)owner).position.OffsetPosition(0, -1);
+                    ((GameObject)Owner).position.OffsetPosition(0, -1);
                     break;
                 case Actions.Left:
-                    ((GameObject)owner).position.OffsetPosition(-1, 0);
+                    ((GameObject)Owner).position.OffsetPosition(-1, 0);
                     break;
                 case Actions.Right:
-                    ((GameObject)owner).position.OffsetPosition(1, 0);
+                    ((GameObject)Owner).position.OffsetPosition(1, 0);
                     break;
                 case Actions.None:
                     break;

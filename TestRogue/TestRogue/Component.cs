@@ -5,7 +5,9 @@ namespace TestRogue
 {
     public abstract class Component
     {
-        public Component owner { get => owner; set => owner = value; }
+        private Component owner = null;
+
+        public Component Owner { get => owner; set => owner = value; }
 
         public abstract void Start(ContentManager contentManager);
 

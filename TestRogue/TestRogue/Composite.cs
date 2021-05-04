@@ -21,7 +21,7 @@ namespace TestRogue
         /// </summary>
         public void AddComponent(Component component)
         {
-            component.owner = this;
+            component.Owner = this;
             components.Add(component);
         }
 

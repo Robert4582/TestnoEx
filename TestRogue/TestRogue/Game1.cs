@@ -34,16 +34,20 @@ namespace TestRogue
 
             // TODO: use this.Content to load your game content here
 
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObject.Start(this.Content);
+            }
         }
 
         protected override void Update(GameTime gameTime)
         {
             // TODO: Add your update logic here
 
-            //foreach (GameObject gameObject in gameObjects)
-            //{
-            //    gameObject.Update();
-            //}
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObject.Update();
+            }
             base.Update(gameTime);
         }
 
@@ -52,14 +56,14 @@ namespace TestRogue
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            //_spriteBatch.Begin();
+            _spriteBatch.Begin();
             
-            //foreach (GameObject gameObject in gameObjects)
-            //{
-            //    gameObject.Draw(_spriteBatch);
-            //}
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObject.Draw(_spriteBatch);
+            }
 
-            //_spriteBatch.End();
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

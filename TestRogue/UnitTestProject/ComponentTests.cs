@@ -24,6 +24,20 @@ namespace UnitTestProject
         }
 
         [TestMethod]
+        public void CanSetComponentOwner()
+        {
+            //Arrange
+            Composite holder = new Composite();
+            EmptyComponent c = new EmptyComponent();
+
+            //Act
+            holder.AddComponent(c);
+
+            //Assert
+            Assert.AreEqual(c.Owner, holder);
+        }
+
+        [TestMethod]
         public void CanRemoveComponent()
         {
             //Arrange
