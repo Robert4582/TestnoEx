@@ -30,16 +30,28 @@ namespace TestRogue
             switch (handler.CurrentAction)
             {
                 case Actions.Up:
-                    ((GameObject)Owner).position.OffsetPosition(0, -1);
+                    if (CollisionManager.TestCollisions(((GameObject)Owner).position + new Position(0, -1)).Count == 0)
+                    {
+                        ((GameObject)Owner).position.OffsetPosition(0, -1);
+                    }
                     break;
                 case Actions.Down:
-                    ((GameObject)Owner).position.OffsetPosition(0, 1);
+                    if (CollisionManager.TestCollisions(((GameObject)Owner).position + new Position(0, 1)).Count == 0)
+                    {
+                        ((GameObject)Owner).position.OffsetPosition(0, 1);
+                    }
                     break;
                 case Actions.Left:
-                    ((GameObject)Owner).position.OffsetPosition(-1, 0);
+                    if (CollisionManager.TestCollisions(((GameObject)Owner).position + new Position(-1, 0)).Count == 0)
+                    {
+                        ((GameObject)Owner).position.OffsetPosition(-1, 0);
+                    }
                     break;
                 case Actions.Right:
-                    ((GameObject)Owner).position.OffsetPosition(1, 0);
+                    if (CollisionManager.TestCollisions(((GameObject)Owner).position + new Position(1, 0)).Count == 0)
+                    {
+                        ((GameObject)Owner).position.OffsetPosition(1, 0);
+                    }
                     break;
                 case Actions.None:
                     break;

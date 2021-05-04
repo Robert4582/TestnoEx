@@ -29,10 +29,13 @@ namespace TestRogue
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            CollisionManager.objects = gameObjects;
             GameObject player = new GameObject(new Position(10, 10), "spritesheet_Walk_Mine");
             player.AddComponent(new InputHandler());
             player.AddComponent(new MovementHandler());
             gameObjects.Add(player);
+
+            gameObjects.Add(new GameObject(new Position(5,5), "spritesheet_Walk_Mine"));
 
             base.Initialize();
         }
