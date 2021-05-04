@@ -13,7 +13,7 @@ namespace TestRogue
         public GameObject(Position position, string spriteName) : base()
         {
             this.position = position;
-            AddComponent(new Animation(spriteName));
+            AddComponent(new Renderer(spriteName));
         }
     }
 }
