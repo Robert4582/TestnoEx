@@ -2,7 +2,7 @@
 {
     public abstract class Component
     {
-        public Component owner { get => owner; }
+        public Component owner { get => owner; set => owner = value; }
 
         public abstract void Start();
 

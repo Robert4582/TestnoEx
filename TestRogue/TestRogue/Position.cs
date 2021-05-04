@@ -48,7 +48,7 @@ namespace TestRogue
         {
             if (obj is Position)
             {
-                return x == ((Position) obj).x && y == ((Position)obj).y;
+                return x == ((Position)obj).x && y == ((Position)obj).y;
             }
             return false;
         }
