@@ -1,28 +1,40 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 
 namespace TestRogue
 {
     public class Animation : Component
     {
-        SpriteBatch spriteBatch;
+        Texture2D texture2D;
+        string name;
 
-        public override void Draw()
+        public Animation(string spriteName)
         {
-            spriteBatch.Begin();
 
+            name = spriteName;
+
+        }
+
+        public override void Draw(SpriteBatch spriteBatch)
+        {
             //Example of how to draw
             //spriteBatch.Draw(sprite, position, color);
 
-            spriteBatch.End();
+            Point pos = ((GameObject)owner).position;
+            spriteBatch.Draw(texture2D, new Rectangle(pos, new Point(64,64)), new Rectangle(0, 0, 64, 64), Color.White);
+
         }
 
-        public override void Start()
+        public override void Start(ContentManager contentManager)
         {
-            throw new NotImplementedException();
+
+            texture2D = contentManager.Load<Texture2D>(name);
+
         }
 
-        public override void Update(SpriteBatch spriteBatch)
+        public override void Update()
         {
             
         }

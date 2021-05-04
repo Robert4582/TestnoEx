@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using System.Collections.Generic;
 
 namespace TestRogue
 {
@@ -49,11 +51,11 @@ namespace TestRogue
         /// <summary>
         /// Runs all containing <see cref="Component"/>'s Start methods.
         /// </summary>
-        public override void Start()
+        public override void Start(ContentManager contentManager)
         {
             foreach (var comp in components)
             {
-                comp.Start();
+                comp.Start(contentManager);
             }
         }
 
@@ -71,11 +73,11 @@ namespace TestRogue
         /// <summary>
         /// Runs all containing <see cref="Component"/>'s Draw methods.
         /// </summary>
-        public override void Draw()
+        public override void Draw(SpriteBatch spriteBatch)
         {
             foreach (var comp in components)
             {
-                comp.Draw();
+                comp.Draw(spriteBatch);
             }
         }
     }

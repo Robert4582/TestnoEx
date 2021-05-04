@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +15,7 @@ namespace UnitTestProject
         public bool hasRunUpdate = false;
         public bool hasRunDraw = false;
 
-        public override void Start()
+        public override void Start(ContentManager contentManager)
         {
             hasRunStart = true;
         }
@@ -23,7 +25,7 @@ namespace UnitTestProject
             hasRunUpdate = true;
         }
 
-        public override void Draw()
+        public override void Draw(SpriteBatch spriteBatch)
         {
             hasRunDraw = true;
         }

@@ -1,4 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +15,12 @@ namespace TestRogue
         InputHandler handler;
       
         
-        public override void Draw()
+        public override void Draw(SpriteBatch spriteBatch)
         {
             
         }
 
-        public override void Start()
+        public override void Start(ContentManager contentManager)
         {
             handler = ((GameObject)owner).GetComponent<InputHandler>();
         }

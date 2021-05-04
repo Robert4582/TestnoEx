@@ -1,4 +1,6 @@
-﻿using Microsoft.Xna.Framework.Input;
+﻿using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,12 +24,12 @@ namespace TestRogue
 
         public Actions CurrentAction { get => currentAction; }
 
-        public override void Draw()
+        public override void Draw(SpriteBatch spriteBatch)
         {
             
         }
 
-        public override void Start()
+        public override void Start(ContentManager contentManager)
         {
             
         }

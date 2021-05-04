@@ -10,9 +10,10 @@ namespace TestRogue
     {
         public Position position;
 
-        public GameObject(Position position)
+        public GameObject(Position position, string spriteName) : base()
         {
             this.position = position;
+            AddComponent(new Animation(spriteName));
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Graphics;
 using TestRogue;
 
 namespace UnitTestProject
@@ -59,7 +60,7 @@ namespace UnitTestProject
 
             //Act
             holder.AddComponent(c);
-            holder.Start();
+            holder.Start(null);
 
             //Assert
             Assert.IsTrue(c.hasRunStart);
@@ -88,7 +89,7 @@ namespace UnitTestProject
 
             //Act
             holder.AddComponent(c);
-            holder.Draw();
+            holder.Draw(null);
 
             //Assert
             Assert.IsTrue(c.hasRunDraw);

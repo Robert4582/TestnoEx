@@ -140,3 +140,4 @@ E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\qualifiers.txt.intermediate
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\ProjectArchitectures.txt
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb

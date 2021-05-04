@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace TestRogue
 {
@@ -8,6 +9,8 @@ namespace TestRogue
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        List<GameObject> gameObjects = new List<GameObject>();
 
         public Game1()
         {
@@ -20,6 +23,8 @@ namespace TestRogue
         {
             // TODO: Add your initialization logic here
 
+            gameObjects.Add(new GameObject(new Position(10, 10), "spritesheet_Walk_Mine"));
+
             base.Initialize();
         }
 
@@ -28,12 +33,17 @@ namespace TestRogue
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+
         }
 
         protected override void Update(GameTime gameTime)
         {
             // TODO: Add your update logic here
 
+            //foreach (GameObject gameObject in gameObjects)
+            //{
+            //    gameObject.Update();
+            //}
             base.Update(gameTime);
         }
 
@@ -42,6 +52,14 @@ namespace TestRogue
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            //_spriteBatch.Begin();
+            
+            //foreach (GameObject gameObject in gameObjects)
+            //{
+            //    gameObject.Draw(_spriteBatch);
+            //}
+
+            //_spriteBatch.End();
 
             base.Draw(gameTime);
         }

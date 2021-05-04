@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,11 @@ namespace TestRogue
         {
             this.x = x;
             this.y = y;
+        }
+
+        public static implicit operator Point(Position pos)
+        {
+            return new Point(pos.x, pos.y);
         }
 
         public void SetPosition(int newX, int newY)
