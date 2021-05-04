@@ -12,9 +12,7 @@ namespace TestRogue
 
         public Animation(string spriteName)
         {
-
             name = spriteName;
-
         }
 
         public override void Draw(SpriteBatch spriteBatch)
@@ -37,6 +35,5 @@ namespace TestRogue
         public override void Update()
         { }
 
-        public Rectangle Rectangle()
     }
 }

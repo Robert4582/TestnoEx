@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
+    <Compile Include="CollisionManager.cs" />
     <Compile Include="Component.cs" />
     <Compile Include="Composite.cs" />
     <Compile Include="GameObject.cs" />
