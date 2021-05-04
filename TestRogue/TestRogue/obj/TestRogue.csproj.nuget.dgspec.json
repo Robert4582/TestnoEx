@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj": {}
+    "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj": {
+    "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+        "projectUniqueName": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj",
         "projectName": "TestRogue",
-        "projectPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\PB Projekter\\Test\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
+        "projectPath": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj",
+        "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+        "outputPath": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
