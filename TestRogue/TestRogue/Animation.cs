@@ -22,8 +22,8 @@ namespace TestRogue
             //Example of how to draw
             //spriteBatch.Draw(sprite, position, color);
 
-            Point pos = ((GameObject)Owner).position;
-            spriteBatch.Draw(texture2D, new Rectangle(pos, new Point(64,64)), new Rectangle(0, 0, 64, 64), Color.White);
+            Point pos = ((GameObject)Owner).position * Game1.TileSize;
+            spriteBatch.Draw(texture2D, new Rectangle(pos, new Point(Game1.TileSize, Game1.TileSize)), new Rectangle(0, 0, Game1.TileSize, Game1.TileSize), Color.White);
 
         }
 
@@ -35,8 +35,8 @@ namespace TestRogue
         }
 
         public override void Update()
-        {
-            
-        }
+        { }
+
+        public Rectangle Rectangle()
     }
 }

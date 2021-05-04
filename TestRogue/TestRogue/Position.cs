@@ -26,6 +26,11 @@ namespace TestRogue
             return new Point(pos.x, pos.y);
         }
 
+        public static Position operator *(Position position, int multiply)
+        {
+            return new Position(position.x * multiply, position.y * multiply);
+        }
+
         public void SetPosition(int newX, int newY)
         {
             x = newX;

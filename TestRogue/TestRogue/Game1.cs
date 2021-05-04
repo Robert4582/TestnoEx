@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 using System.Collections.Generic;
 
 namespace TestRogue
@@ -10,20 +11,28 @@ namespace TestRogue
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        public static int TileSize = 64;
+
         List<GameObject> gameObjects = new List<GameObject>();
+
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            IsFixedTimeStep = true;
+            TargetElapsedTime = new TimeSpan(1000000);
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
-            gameObjects.Add(new GameObject(new Position(10, 10), "spritesheet_Walk_Mine"));
+            GameObject player = new GameObject(new Position(10, 10), "spritesheet_Walk_Mine");
+            player.AddComponent(new InputHandler());
+            player.AddComponent(new MovementHandler());
+            gameObjects.Add(player);
 
             base.Initialize();
         }

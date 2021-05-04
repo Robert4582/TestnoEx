@@ -30,10 +30,10 @@ namespace TestRogue
             switch (handler.CurrentAction)
             {
                 case Actions.Up:
-                    ((GameObject)Owner).position.OffsetPosition(0, 1);
+                    ((GameObject)Owner).position.OffsetPosition(0, -1);
                     break;
                 case Actions.Down:
-                    ((GameObject)Owner).position.OffsetPosition(0, -1);
+                    ((GameObject)Owner).position.OffsetPosition(0, 1);
                     break;
                 case Actions.Left:
                     ((GameObject)Owner).position.OffsetPosition(-1, 0);
