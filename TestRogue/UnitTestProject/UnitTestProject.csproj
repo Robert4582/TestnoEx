@@ -122,6 +122,7 @@
     <Compile Include="AStarGridTest.cs" />
     <Compile Include="AstarPathFindingTest.cs" />
     <Compile Include="CollisionTests.cs" />
+    <Compile Include="CombatTest.cs" />
     <Compile Include="ComponentTests.cs" />
     <Compile Include="EmptyComponent.cs" />
     <Compile Include="InputHandlerTests.cs" />

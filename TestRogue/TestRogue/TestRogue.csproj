@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollisionManager.cs" />
+    <Compile Include="Combat.cs" />
     <Compile Include="Renderer.cs" />
     <Compile Include="Component.cs" />
     <Compile Include="Composite.cs" />
