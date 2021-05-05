@@ -2,7 +2,9 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Linq;
 using System.Collections.Generic;
+using TestRogue.GameObjects;
 
 namespace TestRogue
 {
@@ -29,11 +31,7 @@ namespace TestRogue
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            CollisionManager.objects = gameObjects;
-            GameObject player = new GameObject(new Position(10, 10), "spritesheet_Walk_Mine");
-            player.AddComponent(new InputHandler());
-            player.AddComponent(new MovementHandler());
-            gameObjects.Add(player);
+            gameObjects.Add(new Player(new Position(10, 10)));
 
             gameObjects.Add(new GameObject(new Position(5,5), "spritesheet_Walk_Mine"));
 
@@ -54,12 +52,22 @@ namespace TestRogue
 
         protected override void Update(GameTime gameTime)
         {
-            // TODO: Add your update logic here
+            CollisionManager.objects = gameObjects;
+            List<GameObject> activeObjects = gameObjects.Where(x => x.IsActive).ToList();
 
-            foreach (GameObject gameObject in gameObjects)
+            if (activeObjects.Count > 0)
             {
-                gameObject.Update();
+                TurnManager.Actors = activeObjects.Count;
+
+                GameObject curr = activeObjects[TurnManager.CurrentActor];
+                curr.Update();
+
+                if (curr.HasActed)
+                {
+                    TurnManager.NextTurn();
+                }
             }
+
             base.Update(gameTime);
         }
 
