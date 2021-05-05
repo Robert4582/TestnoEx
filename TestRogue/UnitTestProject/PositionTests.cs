@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,8 +34,10 @@ namespace UnitTestProject
             Assert.IsFalse(a.Equals(b));
         }
 
+
+
         [TestMethod]
-        public void CanSetPosition()
+        public void CanSetPositionInt()
         {
             //Arrange
             Position pos = new Position(5, 10);
@@ -48,7 +51,7 @@ namespace UnitTestProject
         }
 
         [TestMethod]
-        public void CanOffsetPosition()
+        public void CanOffsetPositionInt()
         {
             //Arrange
             Position pos = new Position(5, 10);
@@ -63,7 +66,7 @@ namespace UnitTestProject
         }
 
         [TestMethod]
-        public void CanOffsetNegativePosition()
+        public void CanOffsetNegativePositionInt()
         {
             //Arrange
             Position pos = new Position(5, 10);
@@ -76,5 +79,71 @@ namespace UnitTestProject
             Assert.AreEqual(pos.Y, -10);
 
         }
+
+
+
+
+        [TestMethod]
+        public void CanSetPositionPos()
+        {
+            //Arrange
+            Position pos = new Position(5, 10);
+            Position newPos = new Position(10, 20);
+
+            //Act
+            pos.SetPosition(newPos);
+
+            //Assert
+            Assert.AreEqual(newPos, pos);
+           
+        }
+
+        [TestMethod]
+        public void CanOffsetPositionPos()
+        {
+            //Arrange
+            Position pos = new Position(5, 10);
+            Position newPos = new Position(10, 20);
+
+            //Act
+            pos.OffsetPosition(newPos);
+
+            //Assert
+            Assert.AreEqual(15, newPos.X);
+            Assert.AreEqual(30, newPos.Y);
+        }
+
+        [TestMethod]
+        public void CanOffsetNegativePositionPos()
+        {
+            //Arrange
+            Position pos = new Position(5, 10);
+            Position newPos = new Position(-10, -20);
+
+            //Act
+            pos.OffsetPosition(newPos);
+
+            //Assert
+            Assert.AreEqual(-5, newPos.X);
+            Assert.AreEqual(-10, newPos.Y);
+        }
+
+
+
+        [TestMethod]
+        public void CanReturnPoint()
+        {
+            //Arrange
+            Position pos = new Position(0, 0);
+            Point expectedPoint = new Point(0, 0);
+
+            //Act
+            Point point = pos;
+
+
+            //Assert
+            Assert.AreEqual(point, expectedPoint);
+        }
+
     }
 }

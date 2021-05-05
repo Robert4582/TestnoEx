@@ -12,7 +12,7 @@ namespace TestRogue
 {
     public class MovementHandler : Component
     {
-        InputHandler handler;
+        public InputHandler handler;
       
         
         public override void Draw(SpriteBatch spriteBatch)
@@ -27,7 +27,13 @@ namespace TestRogue
 
         public override void Update()
         {
-            switch (handler.CurrentAction)
+            ActionSwitch(handler.CurrentAction);
+
+        }
+
+        public void ActionSwitch(Actions action)
+        {
+            switch (action)
             {
                 case Actions.Up:
                     ((GameObject)Owner).position.OffsetPosition(0, 1);
@@ -46,7 +52,6 @@ namespace TestRogue
                 default:
                     break;
             }
-
         }
     }
 }

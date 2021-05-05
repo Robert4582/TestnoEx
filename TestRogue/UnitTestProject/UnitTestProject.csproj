@@ -124,6 +124,7 @@
     <Compile Include="ComponentTests.cs" />
     <Compile Include="EmptyComponent.cs" />
     <Compile Include="InputHandlerTests.cs" />
+    <Compile Include="MovementHandlerTests.cs" />
     <Compile Include="PositionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTestApp.xaml.cs">
