@@ -22,7 +22,7 @@ namespace TestRogue
 
         public override void Start(ContentManager contentManager)
         {
-            handler = ((GameObject)Owner).GetComponent<InputHandler>();
+            handler = ((Composite)Owner).GetComponent<InputHandler>();
         }
 
         public override void Update()

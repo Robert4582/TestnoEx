@@ -109,8 +109,8 @@ namespace UnitTestProject
             pos.OffsetPosition(newPos);
 
             //Assert
-            Assert.AreEqual(15, newPos.X);
-            Assert.AreEqual(30, newPos.Y);
+            Assert.AreEqual(pos.X, 15);
+            Assert.AreEqual(pos.Y, 30);
         }
 
         [TestMethod]
@@ -124,8 +124,8 @@ namespace UnitTestProject
             pos.OffsetPosition(newPos);
 
             //Assert
-            Assert.AreEqual(-5, newPos.X);
-            Assert.AreEqual(-10, newPos.Y);
+            Assert.AreEqual(pos.X, -5);
+            Assert.AreEqual(pos.Y, -10);
         }
 
 

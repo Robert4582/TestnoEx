@@ -20,11 +20,13 @@ namespace UnitTestProject
             GameObject obj = new GameObject(new Position(), "");
             obj.AddComponent(movement);
 
+            CollisionManager.objects = new List<GameObject>() { obj };
+
             //Act
-            movement.ActionSwitch(Actions.Down);
+            movement.ActionSwitch(Actions.Up);
 
             //Assert
-            Assert.AreEqual(new Position(0, -1), obj.position);
+            Assert.IsTrue(new Position(0, -1).Equals( obj.position));
         }
 
         [TestMethod]
@@ -35,11 +37,13 @@ namespace UnitTestProject
             GameObject obj = new GameObject(new Position(), "");
             obj.AddComponent(movement);
 
+            CollisionManager.objects = new List<GameObject>() { obj };
+
             //Act
-            movement.ActionSwitch(Actions.Up);
+            movement.ActionSwitch(Actions.Down);
 
             //Assert
-            Assert.AreEqual(new Position(0, 1), obj.position);
+            Assert.IsTrue(new Position(0, 1).Equals(obj.position));
         }
 
         public void CanOffsetPlayerPositionThroughCurrentActionLeft()
@@ -49,11 +53,13 @@ namespace UnitTestProject
             GameObject obj = new GameObject(new Position(), "");
             obj.AddComponent(movement);
 
+            CollisionManager.objects = new List<GameObject>() { obj };
+
             //Act
             movement.ActionSwitch(Actions.Left);
 
             //Assert
-            Assert.AreEqual(new Position(-1, 0), obj.position);
+            Assert.IsTrue(new Position(-1, 0).Equals(obj.position));
         }
 
         public void CanOffsetPlayerPositionThroughCurrentActionRight()
@@ -63,11 +69,13 @@ namespace UnitTestProject
             GameObject obj = new GameObject(new Position(), "");
             obj.AddComponent(movement);
 
+            CollisionManager.objects = new List<GameObject>() { obj };
+
             //Act
             movement.ActionSwitch(Actions.Right);
 
             //Assert
-            Assert.AreEqual(new Position(1, 0), obj.position);
+            Assert.IsTrue(new Position(1, 0).Equals(obj.position));
         }
 
 
@@ -75,7 +83,7 @@ namespace UnitTestProject
         public void CanRetrieveInputHandler()
         {
             //Arrange
-            GameObject obj = new GameObject(new Position(), "");
+            Composite obj = new Composite();
             MovementHandler handler = new MovementHandler();
             InputHandler inputHandler = new InputHandler();
             obj.AddComponent(handler);

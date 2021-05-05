@@ -143,5 +143,5 @@ E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.
 C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Roy-T.AStar.dll
-X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
+X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache

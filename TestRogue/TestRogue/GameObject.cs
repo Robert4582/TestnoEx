@@ -8,10 +8,36 @@ namespace TestRogue
 {
     public class GameObject : Composite
     {
+        bool hasActed = false;
+
         public Position position;
 
-        public GameObject(Position position, string spriteName) : base()
+        public bool IsActive;
+        public bool HasActed
         {
+            get
+            {
+                if (hasActed)
+                {
+                    hasActed = false;
+                    return true;
+                }
+                return false;
+            }
+        }
+
+        public GameObject(string spriteName, bool isActive = false) : base()
+        {
+            IsActive = isActive;
+
+            this.position = new Position();
+            AddComponent(new Renderer(spriteName));
+        }
+
+        public GameObject(Position position, string spriteName, bool isActive = false) : base()
+        {
+            IsActive = isActive;
+
             this.position = position;
             AddComponent(new Renderer(spriteName));
         }
