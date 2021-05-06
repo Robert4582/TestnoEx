@@ -28,7 +28,7 @@ namespace TestRogue
 
             if (IsDead)
             {
-                Game1.gameObjects.Remove((GameObject)Owner);
+                Game1.AddToRemoval((GameObject)Owner);
             }
 
         }

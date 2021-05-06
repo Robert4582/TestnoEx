@@ -26,9 +26,6 @@ namespace TestRogue
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            //Example of how to draw
-            //spriteBatch.Draw(sprite, position, color);
-
             spriteBatch.Draw(texture2D, SpriteRectangle(), sourceRectangle(), color);
         }
 

@@ -30,13 +30,13 @@
     <AppXManifest Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-05T12:16:15.334</Modified>
+      <Modified>2021-05-06T13:20:38.677</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\TestRogue.exe">
       <PackagePath>entrypoint\TestRogue.exe</PackagePath>
-      <Modified>2021-05-05T12:16:14.809</Modified>
+      <Modified>2021-05-06T13:20:38.143</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kaspe_000\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -82,13 +82,17 @@
       <PackagePath>MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets</PackagePath>
       <Modified>2020-08-10T14:17:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\bin\Windows\Content\enemy.xnb">
+      <PackagePath>Content/enemy.xnb</PackagePath>
+      <Modified>2021-05-06T12:07:36.618</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\bin\Windows\Content\spritesheet_Walk_Mine.xnb">
       <PackagePath>Content/spritesheet_Walk_Mine.xnb</PackagePath>
       <Modified>2021-05-04T09:20:47.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-04-27T08:51:41.453</Modified>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\enemy.png">
+      <PackagePath>Content\enemy.png</PackagePath>
+      <Modified>2021-05-06T12:06:49.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -120,17 +124,21 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2021-04-27T08:51:41.451</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-04-27T08:51:41.453</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-05T10:03:26.095</Modified>
+      <Modified>2021-05-06T13:14:02.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\TestRogue.exe">
       <PackagePath>TestRogue.exe</PackagePath>
-      <Modified>2021-05-05T12:16:15.330</Modified>
+      <Modified>2021-05-06T13:20:38.674</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

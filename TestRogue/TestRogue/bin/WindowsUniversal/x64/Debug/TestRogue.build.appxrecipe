@@ -61,11 +61,14 @@
     <AppxPackagedFile Include="C:\Users\kaspe_000\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets">
       <PackagePath>MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\bin\Windows\Content\enemy.xnb">
+      <PackagePath>Content/enemy.xnb</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\bin\Windows\Content\spritesheet_Walk_Mine.xnb">
       <PackagePath>Content/spritesheet_Walk_Mine.xnb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Content\enemy.png">
+      <PackagePath>Content\enemy.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -89,6 +92,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
