@@ -34,8 +34,6 @@ namespace UnitTestProject
             Assert.IsFalse(a.Equals(b));
         }
 
-
-
         [TestMethod]
         public void CanSetPositionInt()
         {
@@ -79,8 +77,6 @@ namespace UnitTestProject
             Assert.AreEqual(pos.Y, -10);
 
         }
-
-
 
 
         [TestMethod]
@@ -140,10 +136,41 @@ namespace UnitTestProject
             //Act
             Point point = pos;
 
-
             //Assert
             Assert.AreEqual(point, expectedPoint);
         }
+
+        [TestMethod]
+        public void CanUseAddOperator()
+        {
+            //Arrange
+            Position pos = new Position(10, 0);
+            Position addedPos = new Position(0, 10);
+            Position expectedPos = new Position(10, 10); 
+
+            //Act
+            pos += addedPos;
+
+            //Assert
+            Assert.IsTrue(pos.Equals(expectedPos));
+        }
+
+        [TestMethod]
+        public void CanUseMultiplyOperator()
+        {
+            //Arrange
+            Position pos = new Position(10, 5);
+            int addedValue = 2;
+            Position expectedPos = new Position(20, 10);
+
+            //Act
+
+            pos *= addedValue;
+
+            //Assert
+            Assert.IsTrue(pos.Equals(expectedPos));
+        }
+
 
     }
 }

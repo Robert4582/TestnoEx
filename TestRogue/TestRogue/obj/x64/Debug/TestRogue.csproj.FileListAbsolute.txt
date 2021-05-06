@@ -109,7 +109,6 @@ E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\SharpDX.DXGI.dl
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\SharpDX.MediaFoundation.dll
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\SharpDX.XAudio2.dll
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
-E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csproj.CoreCompileInputs.cache
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csproj.CopyComplete
 E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\MonoGame.Framework.pri.xml
@@ -145,3 +144,5 @@ X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
 C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\enemy.xnb
+E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\enemy.xnb
+E:\ROGUE LIKE\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache

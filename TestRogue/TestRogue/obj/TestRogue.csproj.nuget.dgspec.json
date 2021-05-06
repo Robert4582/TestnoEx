@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj": {}
+    "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj": {}
   },
   "projects": {
-    "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj": {
+    "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
+        "projectUniqueName": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj",
         "projectName": "TestRogue",
-        "projectPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\TestRogue.csproj",
-        "packagesPath": "C:\\Users\\kaspe_000\\.nuget\\packages\\",
-        "outputPath": "X:\\Github Projects\\Robert4582\\TestnoEx\\TestRogue\\TestRogue\\obj\\",
+        "projectPath": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\TestRogue.csproj",
+        "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+        "outputPath": "E:\\ROGUE LIKE\\TestRogue\\TestRogue\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kaspe_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.com/api/v4/projects/17035152/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "uap10.0.16299": {
