@@ -17,11 +17,20 @@ namespace TestRogue
 
         public static List<GameObject> gameObjects = new List<GameObject>();
 
-        private static List<GameObject> removedObjects = new List<GameObject>();
+        public static List<GameObject> removedObjects = new List<GameObject>();
 
-        public static void RemoveObject(GameObject gameObject)
+        public static void AddToRemoval(GameObject gameObject)
         {
             removedObjects.Add(gameObject);
+        }
+
+        public static void RemoveFromList()
+        {
+            foreach (var item in removedObjects)
+            {
+                gameObjects.Remove(item);
+            }
+            removedObjects.Clear();
         }
 
         public Game1()
@@ -68,11 +77,7 @@ namespace TestRogue
                 GameObject curr = activeObjects[TurnManager.CurrentActor];
                 curr.Update();
 
-                foreach (var item in removedObjects)
-                {
-                    gameObjects.Remove(item);
-                }
-                removedObjects.Clear();
+                RemoveFromList();
 
                 TurnManager.Actors = activeObjects.Count;
 

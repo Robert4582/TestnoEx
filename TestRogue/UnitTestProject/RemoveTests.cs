@@ -8,17 +8,31 @@ namespace UnitTestProject
     public class RemoveTests
     {
         [TestMethod]
-        public void CanRemoveGameObject()
+        public void CanAddObjectToRemoveList()
         {
+            //Arrange
+            GameObject test = new GameObject("");
 
-            GameObject gameObject = new GameObject("");
+            //Act
+            Game1.AddToRemoval(test);
 
-            List<GameObject> gameObjects = new List<GameObject>() { gameObject};
+            //Assert
+            CollectionAssert.Contains(Game1.removedObjects, test);
+        }
 
-            Game1.RemoveObject(gameObject);
+        [TestMethod]
+        public void CanRemove()
+        {
+            //Arrange
+            GameObject test = new GameObject("");
+            Game1.gameObjects.Add(test);
+            Game1.AddToRemoval(test);
 
+            //Act
+            Game1.RemoveFromList();
 
-
+            //Assert
+            CollectionAssert.DoesNotContain(Game1.gameObjects, test);
         }
     }
 }
