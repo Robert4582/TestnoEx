@@ -19,7 +19,18 @@ namespace TestRogue
 
         public void SetTargetPosition()
         {
-            targetPosition = Game1.gameObjects.Find(x => x is Player).position;
+            if (Game1.gameObjects.Find(x => x is Player) is var player && player != null)
+            {
+                targetPosition = player.position;
+            }
+            else if ((Game1.gameObjects.Find(x => x is Enemy && x != Owner) is var enemy && enemy != null))
+            {
+                targetPosition = enemy.position;
+            }
+            else
+            {
+                targetPosition = ((GameObject)Owner).position;
+            }
         }
 
         public List<Position> DrawPath()
