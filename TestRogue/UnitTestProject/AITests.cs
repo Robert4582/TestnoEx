@@ -57,5 +57,33 @@ namespace UnitTestProject
             //Assert
             Assert.AreEqual(Actions.Down, input.CurrentAction);
         }
+
+        [TestMethod]
+        public void CanHandleNoPlayer()
+        {
+            Enemy enemy = new Enemy(new Position(69, 69));
+            AIHandler aIHandler = new AIHandler();
+
+            Game1.gameObjects = new List<GameObject>() { enemy };
+
+            aIHandler.SetTargetPosition();
+
+            Assert.IsTrue(aIHandler.targetPosition.Equals(new Position(69, 69)));
+
+        }
+
+        [TestMethod]
+        public void CanHandleNoPlayerOrEnemy()
+        {
+            AIHandler aIHandler = new AIHandler();
+            GameObject gameObject = new GameObject("");
+            gameObject.AddComponent(aIHandler);
+            Game1.gameObjects = new List<GameObject>() { gameObject };
+
+            aIHandler.SetTargetPosition();
+
+            Assert.IsTrue(gameObject.position.Equals(aIHandler.targetPosition));
+
+        }
     }
 }

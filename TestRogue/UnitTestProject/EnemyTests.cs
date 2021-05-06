@@ -15,9 +15,11 @@ namespace UnitTestProject
 
             //Act
             InputHandler input = enemy.GetComponent<InputHandler>();
+            MovementHandler movement = enemy.GetComponent<MovementHandler>();
 
             //Assert
             Assert.IsNotNull(input);
+            Assert.IsNotNull(movement);
         }
     }
 }

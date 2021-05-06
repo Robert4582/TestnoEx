@@ -21,5 +21,11 @@ namespace TestRogue
         {
             return queuePosition == currentActor;
         }
+        public static void Clear()
+        {
+            currentActor = 0;
+            Actors = 0;
+        }
+
     }
 }

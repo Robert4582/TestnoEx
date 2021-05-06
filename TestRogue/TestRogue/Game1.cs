@@ -49,6 +49,14 @@ namespace TestRogue
             gameObjects.Add(new Player(new Position(10, 10)));
 
             gameObjects.Add(new Enemy(new Position(10, 9)));
+            gameObjects.Add(new Enemy(new Position(3, 5)));
+            gameObjects.Add(new Enemy(new Position(5, 3)));
+            gameObjects.Add(new Enemy(new Position(7, 9)));
+            gameObjects.Add(new Enemy(new Position(10, 3)));
+            gameObjects.Add(new Enemy(new Position(6, 7)));
+            gameObjects.Add(new Enemy(new Position(1, 4)));
+            gameObjects.Add(new Enemy(new Position(5, 2)));
+            gameObjects.Add(new Enemy(new Position(1, 9)));
 
             base.Initialize();
         }
@@ -79,7 +87,7 @@ namespace TestRogue
 
                 RemoveFromList();
 
-                TurnManager.Actors = activeObjects.Count;
+                TurnManager.Actors = gameObjects.Where(x => x.IsActive).ToList().Count;
 
                 if (curr.ConsumeAction())
                 {
