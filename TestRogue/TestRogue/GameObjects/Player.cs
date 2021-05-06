@@ -12,6 +12,7 @@ namespace TestRogue.GameObjects
         {
             AddComponent(new InputHandler());
             AddComponent(new MovementHandler());
+            AddComponent(new Combatant());
         }
     }
 }

@@ -90,11 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollisionManager.cs" />
-<<<<<<< HEAD
-    <Compile Include="Combat.cs" />
-=======
+    <Compile Include="Combatant.cs" />
     <Compile Include="GameObjects\Player.cs" />
->>>>>>> 284b588f63b73ce30db9b492a1523e5983a2e130
     <Compile Include="Renderer.cs" />
     <Compile Include="Component.cs" />
     <Compile Include="Composite.cs" />

@@ -90,7 +90,6 @@ X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\qualifi
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\ProjectArchitectures.txt
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
 C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Roy-T.AStar.dll
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\MonoGame.Framework\MonoGame.Framework.WindowsUniversal.targets
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\TestRogue.exe
@@ -145,3 +144,4 @@ X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Roy-T.AStar.dll
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
+C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache

@@ -8,38 +8,43 @@ namespace UnitTestProject
     {
 
         [TestMethod]
-        public void CanPlayerLossHP()
+        public void TestCombatantTakeDMG()
         {
 
             //Arrange
-            Combat battle = new Combat();
-            int playerDMG = 25;
+            Combatant battle = new Combatant();
             int playerHP = 50;
-            int newHP = playerHP - playerDMG;
+            int playerDMG = 25;
+            int hP = playerHP - playerDMG;
 
             //Act
-            int hp = battle.DMGPlayer();
+            battle.TakeDMG(battle.dmgGiven);
 
             //Assert
-            Assert.AreEqual(hp, newHP);
+            Assert.AreEqual(battle.health, hP);
 
         }
 
         [TestMethod]
-        public void CanDie()
+        public void TestCombatantGiveDMG()
         {
 
             //Arrange
-            Combat battle = new Combat();
-            bool isAlive = false;
-            
+            Combatant battle = new Combatant();
+            GameObject enemy = new GameObject("", true);
+            enemy.AddComponent(battle);
+            int playerHP = 50;
+            int playerDMG = 25;
+            int hP = playerHP - playerDMG;
 
             //Act
-            bool died = battle.PlayerDied();
+            battle.GiveDMG(enemy);
 
             //Assert
-            Assert.AreEqual(died, isAlive);
+            Assert.AreEqual(battle.health, hP);
 
         }
+
     }
+
 }
