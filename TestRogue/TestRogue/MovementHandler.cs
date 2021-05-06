@@ -33,6 +33,7 @@ namespace TestRogue
 
         public void ActionSwitch(Actions action)
         {
+            ((GameObject)Owner).
             switch (action)
             {
                 case Actions.Up:

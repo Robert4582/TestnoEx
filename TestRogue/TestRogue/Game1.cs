@@ -64,7 +64,7 @@ namespace TestRogue
                 GameObject curr = activeObjects[TurnManager.CurrentActor];
                 curr.Update();
 
-                if (curr.HasActed)
+                if (curr.ConsumeAction())
                 {
                     TurnManager.NextTurn();
                 }

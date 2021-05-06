@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRogue.GameObjects
 {
-    class Player : GameObject
+    public class Player : GameObject
     {
         public Player(Position position) : base(position,"spritesheet_Walk_Mine", true)
         {

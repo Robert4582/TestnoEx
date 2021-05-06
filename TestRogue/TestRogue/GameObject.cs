@@ -13,17 +13,20 @@ namespace TestRogue
         public Position position;
 
         public bool IsActive;
-        public bool HasActed
+
+        public void SetToHasActed()
         {
-            get
+            hasActed = true;
+        }
+
+        public bool ConsumeAction()
+        {
+            if (hasActed)
             {
-                if (hasActed)
-                {
-                    hasActed = false;
-                    return true;
-                }
-                return false;
+                hasActed = false;
+                return true;
             }
+            return false;
         }
 
         public GameObject(string spriteName, bool isActive = false) : base()

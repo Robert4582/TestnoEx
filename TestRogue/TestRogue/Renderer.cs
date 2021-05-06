@@ -10,11 +10,18 @@ namespace TestRogue
         Texture2D texture2D;
         string name;
 
+        public Color color = Color.White;
+
         public Renderer(string spriteName)
         {
-
             name = spriteName;
 
+        }
+
+        public Renderer(string spriteName, Color color)
+        {
+            name = spriteName;
+            this.color = color;
         }
 
         public override void Draw(SpriteBatch spriteBatch)
@@ -22,8 +29,7 @@ namespace TestRogue
             //Example of how to draw
             //spriteBatch.Draw(sprite, position, color);
 
-            spriteBatch.Draw(texture2D, SpriteRectangle(), sourceRectangle(), Color.White);
-
+            spriteBatch.Draw(texture2D, SpriteRectangle(), sourceRectangle(), color);
         }
 
         public override void Start(ContentManager contentManager)

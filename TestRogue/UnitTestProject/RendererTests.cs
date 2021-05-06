@@ -5,7 +5,7 @@ using TestRogue;
 namespace UnitTestProject
 {
     [TestClass]
-    public class RectangleTest
+    public class RendererTests
     {
 
         [TestMethod]
@@ -58,6 +58,20 @@ namespace UnitTestProject
 
             //Assert
             Assert.AreEqual(spriteTest, test);
+
+        }
+
+        [TestMethod]
+        public void CanColorBeSet()
+        {
+
+            //Arrange
+            Renderer renderer = new Renderer("", Color.Red);
+            Color expected = Color.Red;
+
+
+            //Assert
+            Assert.AreEqual(expected, renderer.color);
 
         }
 
