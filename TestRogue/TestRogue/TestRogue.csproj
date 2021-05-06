@@ -89,7 +89,10 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIHandler.cs" />
     <Compile Include="CollisionManager.cs" />
+    <Compile Include="Combatant.cs" />
+    <Compile Include="GameObjects\Enemy.cs" />
     <Compile Include="GameObjects\Player.cs" />
     <Compile Include="Renderer.cs" />
     <Compile Include="Component.cs" />

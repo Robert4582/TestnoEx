@@ -20,7 +20,7 @@ namespace TestRogue
 
     public class InputHandler : Component
     {
-        Actions currentAction = Actions.None;
+        protected Actions currentAction = Actions.None;
 
         public Actions CurrentAction { get => currentAction; }
 
@@ -45,21 +45,25 @@ namespace TestRogue
             if (state.IsKeyDown(Keys.W))
             {
                 currentAction = Actions.Up;
+                ((GameObject)Owner).SetToHasActed();
             }
 
             else if (state.IsKeyDown(Keys.S))
             {
                 currentAction = Actions.Down;
+                ((GameObject)Owner).SetToHasActed();
             }
 
             else if (state.IsKeyDown(Keys.A))
             {
                 currentAction = Actions.Left;
+                ((GameObject)Owner).SetToHasActed();
             }
 
             else if (state.IsKeyDown(Keys.D))
             {
                 currentAction = Actions.Right;
+                ((GameObject)Owner).SetToHasActed();
             }
 
             else
