@@ -17,8 +17,10 @@ namespace UnitTestProject
         public void CanReadInput()
         {
             //Arrange
+            GameObject gameObject = new GameObject("");
             InputHandler input = new InputHandler();
             KeyboardState state = new KeyboardState(Keys.W);
+            gameObject.AddComponent(input);
 
             //Act
             input.HandleInput(state);

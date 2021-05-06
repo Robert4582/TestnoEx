@@ -15,8 +15,14 @@ namespace TestRogue
 
         public static int TileSize = 64;
 
-        List<GameObject> gameObjects = new List<GameObject>();
+        public static List<GameObject> gameObjects = new List<GameObject>();
 
+        private static List<GameObject> removedObjects = new List<GameObject>();
+
+        public static void RemoveObject(GameObject gameObject)
+        {
+            removedObjects.Add(gameObject);
+        }
 
         public Game1()
         {
@@ -33,7 +39,7 @@ namespace TestRogue
             // TODO: Add your initialization logic here
             gameObjects.Add(new Player(new Position(10, 10)));
 
-            gameObjects.Add(new GameObject(new Position(5,5), "spritesheet_Walk_Mine"));
+            gameObjects.Add(new Enemy(new Position(10, 9)));
 
             base.Initialize();
         }
@@ -61,6 +67,9 @@ namespace TestRogue
 
                 GameObject curr = activeObjects[TurnManager.CurrentActor];
                 curr.Update();
+
+
+                TurnManager.Actors = activeObjects.Count;
 
                 if (curr.ConsumeAction())
                 {

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestRogue.GameObjects
 {
-    public class Player : GameObject
+    public class Enemy : GameObject
     {
-        public Player(Position position) : base(position,"spritesheet_Walk_Mine", true)
+        public Enemy(Position position) : base(position, "enemy", true)
         {
-            AddComponent(new InputHandler());
+            AddComponent(new AIHandler());
             AddComponent(new Combatant());
             AddComponent(new MovementHandler());
         }

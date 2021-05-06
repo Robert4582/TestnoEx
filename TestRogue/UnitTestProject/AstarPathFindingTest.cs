@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-//using TestRogue;
-
 using Roy_T.AStar.Grids;
 using Roy_T.AStar.Primitives;
 using Roy_T.AStar.Paths;
@@ -16,14 +14,14 @@ namespace UnitTestProject
 
         public AstarPathFindingTest()
         {
-            this.PathFinder = new PathFinder();
+            PathFinder = new PathFinder();
         }
 
         [TestMethod]
         public void ShouldFindPath__StartNodeIsEndNode()
         {
             var node = new Node(Position.Zero);
-            var path = this.PathFinder.FindPath(node, node, Velocity.FromMetersPerSecond(1));
+            var path = PathFinder.FindPath(node, node, Velocity.FromMetersPerSecond(1));
 
             Assert.AreEqual(path.Type, PathType.Complete);
             Assert.AreEqual(path.Edges.Count, 0);
@@ -41,7 +39,7 @@ namespace UnitTestProject
             nodeA.Connect(nodeB, Velocity.FromMetersPerSecond(1));
             nodeB.Connect(nodeC, Velocity.FromMetersPerSecond(1));
 
-            var path = this.PathFinder.FindPath(nodeA, nodeC, Velocity.FromMetersPerSecond(1));
+            var path = PathFinder.FindPath(nodeA, nodeC, Velocity.FromMetersPerSecond(1));
 
             Assert.AreEqual(path.Type, PathType.Complete);
             Assert.AreEqual(path.Edges.Count, 2);
@@ -62,7 +60,7 @@ namespace UnitTestProject
             nodeB.Connect(nodeA, Velocity.FromMetersPerSecond(1));
             nodeC.Connect(nodeB, Velocity.FromMetersPerSecond(1));
 
-            var path = this.PathFinder.FindPath(nodeA, nodeC, Velocity.FromMetersPerSecond(1));
+            var path = PathFinder.FindPath(nodeA, nodeC, Velocity.FromMetersPerSecond(1));
 
             Assert.AreEqual(path.Type, PathType.Complete);
             Assert.AreEqual(path.Edges.Count, 2);
@@ -91,7 +89,7 @@ namespace UnitTestProject
             nodeCenter.Connect(nodeBelow, Velocity.FromMetersPerSecond(1));
             nodeBelow.Connect(nodeCenter, Velocity.FromMetersPerSecond(1));
 
-            var path = this.PathFinder.FindPath(nodeLeft, nodeBelow, Velocity.FromMetersPerSecond(1));
+            var path = PathFinder.FindPath(nodeLeft, nodeBelow, Velocity.FromMetersPerSecond(1));
 
             Assert.AreEqual(path.Type, PathType.Complete);
             Assert.AreEqual(path.Edges.Count, 2);
