@@ -20,12 +20,13 @@ namespace TestRogue
             this.x = x;
             this.y = y;
         }
-
+        //caste til point, for at gøre reference nemmere
         public static implicit operator Point(Position pos)
         {
             return new Point(pos.x, pos.y);
         }
 
+        //convert position coords to screen (pixels), so grid snap movement works  
         public static Position operator *(Position position, int multiply)
         {
             return new Position(position.x * multiply, position.y * multiply);

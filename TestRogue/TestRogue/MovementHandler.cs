@@ -35,6 +35,8 @@ namespace TestRogue
         {
             switch (action)
             {
+
+                //checks if tile empty, if so movement allowed
                 case Actions.Up:
                     if (CollisionManager.TestCollisions(((GameObject)Owner).position + new Position(0, -1)).Count == 0)
                     {
