@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-06T11:56:12.759</Modified>
+      <Modified>2021-05-06T12:33:36.910</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\TestRogue.exe">
       <PackagePath>entrypoint\TestRogue.exe</PackagePath>
-      <Modified>2021-05-06T11:56:11.027</Modified>
+      <Modified>2021-05-06T12:33:35.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\.nuget\packages\monogame.framework.windowsuniversal\3.8.0.1641\lib\uap10.0\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -130,7 +130,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Core\TestRogue.exe">
       <PackagePath>TestRogue.exe</PackagePath>
-      <Modified>2021-05-06T11:56:12.752</Modified>
+      <Modified>2021-05-06T12:33:36.896</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
