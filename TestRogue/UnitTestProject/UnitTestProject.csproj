@@ -122,13 +122,16 @@
     <Compile Include="AStarGridTest.cs" />
     <Compile Include="AstarPathFindingTest.cs" />
     <Compile Include="CollisionTests.cs" />
-    <Compile Include="CombatTest.cs" />
+    <Compile Include="CombatantTests.cs" />
     <Compile Include="ComponentTests.cs" />
     <Compile Include="EmptyComponent.cs" />
+    <Compile Include="EnemyTests.cs" />
     <Compile Include="InputHandlerTests.cs" />
+    <Compile Include="AITests.cs" />
     <Compile Include="MovementHandlerTests.cs" />
     <Compile Include="PositionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveTests.cs" />
     <Compile Include="RendererTests.cs" />
     <Compile Include="TurnManagerTests.cs" />
     <Compile Include="GameObjectTests.cs" />

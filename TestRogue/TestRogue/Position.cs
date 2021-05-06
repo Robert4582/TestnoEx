@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Roy_T.AStar.Primitives;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TestRogue
 {
-    public class Position
+    public struct Position
     {
         private int x;
         private int y;
@@ -19,6 +20,17 @@ namespace TestRogue
         {
             this.x = x;
             this.y = y;
+        }
+
+        public Position(Roy_T.AStar.Primitives.Position position)
+        {
+            x = (int)position.X;
+            y = (int)position.Y;
+        }
+
+        public static implicit operator GridPosition(Position pos)
+        {
+            return new GridPosition(pos.x, pos.y);
         }
 
         public static implicit operator Point(Position pos)

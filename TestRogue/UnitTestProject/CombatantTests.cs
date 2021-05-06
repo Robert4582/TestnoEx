@@ -4,7 +4,7 @@ using TestRogue;
 namespace UnitTestProject
 {
     [TestClass]
-    public class CombatTest
+    public class CombatantTests
     {
 
         [TestMethod]
@@ -14,7 +14,7 @@ namespace UnitTestProject
             //Arrange
             Combatant battle = new Combatant();
             int playerHP = 50;
-            int playerDMG = 25;
+            int playerDMG = 50;
             int hP = playerHP - playerDMG;
 
             //Act
@@ -34,7 +34,7 @@ namespace UnitTestProject
             GameObject enemy = new GameObject("", true);
             enemy.AddComponent(battle);
             int playerHP = 50;
-            int playerDMG = 25;
+            int playerDMG = 50;
             int hP = playerHP - playerDMG;
 
             //Act

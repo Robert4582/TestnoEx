@@ -14,7 +14,7 @@ namespace TestRogue
         public int health = 50;
         public int dmgGiven = 50;
 
-        public bool PlayerDied
+        public bool IsDead
         {
             get => health <= 0;
         }
@@ -25,6 +25,11 @@ namespace TestRogue
         {
 
             health -= DMG;
+
+            if (IsDead)
+            {
+                Game1.RemoveObject((GameObject)Owner);
+            }
 
         }
 
@@ -76,15 +81,12 @@ namespace TestRogue
 
         public override void Update()
         {
-
-            foreach (GameObject gameObject in SearchOpponents(handler.CurrentAction))
+            if (handler != null)
             {
-                GiveDMG(gameObject);
-            }
-
-            if (PlayerDied)
-            {
-                Game1.gameObjects.Remove((GameObject)Owner);
+                foreach (GameObject gameObject in SearchOpponents(handler.CurrentAction))
+                {
+                    GiveDMG(gameObject);
+                }
             }
         }
 
