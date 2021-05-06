@@ -143,5 +143,5 @@ C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\Window
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Roy-T.AStar.dll
 E:\ROGUE LIKE\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\spritesheet_Walk_Mine.xnb
-C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\obj\x64\Debug\TestRogue.csprojAssemblyReference.cache
 X:\Github Projects\Robert4582\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\enemy.xnb
+C:\Users\rober\Desktop\PB Projekter\Test\TestnoEx\TestRogue\TestRogue\bin\WindowsUniversal\x64\Debug\Content\enemy.xnb

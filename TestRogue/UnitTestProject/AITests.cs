@@ -13,13 +13,15 @@ namespace UnitTestProject
         [TestMethod]
         public void CanSetTarget()
         {
+            //Arrange
             Player player = new Player(new Position(10, 10));
             AIHandler aIHandler = new AIHandler();
-
             Game1.gameObjects = new List<GameObject>() { player};
 
+            //Act
             aIHandler.SetTargetPosition();
 
+            //Assert
             Assert.IsTrue(aIHandler.targetPosition.Equals(new Position(10, 10)));
         }
 
@@ -61,13 +63,15 @@ namespace UnitTestProject
         [TestMethod]
         public void CanHandleNoPlayer()
         {
+            //Arrange
             Enemy enemy = new Enemy(new Position(69, 69));
             AIHandler aIHandler = new AIHandler();
-
             Game1.gameObjects = new List<GameObject>() { enemy };
 
+            //Act
             aIHandler.SetTargetPosition();
 
+            //Assert
             Assert.IsTrue(aIHandler.targetPosition.Equals(new Position(69, 69)));
 
         }
@@ -75,13 +79,16 @@ namespace UnitTestProject
         [TestMethod]
         public void CanHandleNoPlayerOrEnemy()
         {
+            //Arrange
             AIHandler aIHandler = new AIHandler();
             GameObject gameObject = new GameObject("");
             gameObject.AddComponent(aIHandler);
             Game1.gameObjects = new List<GameObject>() { gameObject };
 
+            //Act
             aIHandler.SetTargetPosition();
 
+            //Assert
             Assert.IsTrue(gameObject.position.Equals(aIHandler.targetPosition));
 
         }
